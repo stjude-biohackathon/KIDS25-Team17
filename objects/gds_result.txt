@@ -1,0 +1,994 @@
+
+1. Complex interaction of tumor-derived factors instructs the niche specific phenotypes of tumor-associated macrophages (CROP-Seq, in vivo LGP pool)
+(Submitter supplied) Despite the importance of tumor-associated macrophages (TAMs) in modulating anti-tumor immunity, the molecular determinants of their functional phenotypes remain elusive. Through a large-scale CRISPR screen, we discovered that tumor-derived lactic acid, PGE2, and GM-CSF collaboratively shape the highly conserved but mutually exclusive TAM phenotypes: MHC-II+ and angiogenic TAMs. Mechanistically, the dichotomous nature of these two phenotypes is driven by the antagonistic interactions between lactic acid/PGE2 and GM-CSF. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL24247 2 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE269nnn/GSE269026/
+Series		Accession: GSE269026	ID: 200269026
+
+2. Complex interaction of tumor-derived factors instructs the spatially distinct phenotypes of tumor-associated macrophages [scRNA-Seq]
+(Submitter supplied) Despite the importance of tumor-associated macrophages (TAMs) in modulating anti-tumor immunity, the molecular determinants of their functional phenotypes remain elusive. Through a large-scale CRISPR screen, we discovered that tumor-derived lactic acid, PGE2, and GM-CSF collaboratively shape the highly conserved but mutually exclusive TAM phenotypes: MHC-II+ and angiogenic TAMs. Mechanistically, the dichotomous nature of these two phenotypes is driven by the antagonistic interactions between lactic acid/PGE2 and GM-CSF. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24247 2 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE237nnn/GSE237849/
+Series		Accession: GSE237849	ID: 200237849
+
+3. Complex interaction of tumor-derived factors instructs the niche specific phenotypes of tumor-associated macrophages [CROP-Seq, in vitro and in vivo pool]
+(Submitter supplied) Despite the importance of tumor-associated macrophages (TAMs) in modulating anti-tumor immunity, the molecular determinants of their functional phenotypes remain elusive. Through a large-scale CRISPR screen, we discovered that tumor-derived lactic acid, PGE2, and GM-CSF collaboratively shape the highly conserved but mutually exclusive TAM phenotypes: MHC-II+ and angiogenic TAMs. Mechanistically, the dichotomous nature of these two phenotypes is driven by the antagonistic interactions between lactic acid/PGE2 and GM-CSF. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL24247 4 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE237nnn/GSE237782/
+Series		Accession: GSE237782	ID: 200237782
+
+4. KRAS G12C inhibition combined with CD47 and immune checkpoint blockage overcomes intrinsic resistance to concomitant KRAS G12C and immune checkpoint inhibitor therapy
+(Submitter supplied) Although KRAS G12C inhibitors have altered the treatment strategy of patients with KRAS G12C mutant lung cancer, their efficacy is insufficient to eliminate tumors. Here, we identified that inhibition of mutant KRAS promotes escape from macrophage phagocytosis by upregulating the expression of ‘don’t eat me’ signal proteins, including CD47. CD47 was induced by the binding of FOXA1 to the super-enhancer of CD47. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL34290 2 Samples
+FTP download: GEO (CSV, H5, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE291nnn/GSE291687/
+Series		Accession: GSE291687	ID: 200291687
+
+5. DDX54 downregulation enhances anti-PD1 therapy in immune-desert lung tumors with high tumor mutational burden
+(Submitter supplied) High tumor mutational burden (TMB) is a predictive biomarker for the responsiveness of cancer to immune checkpoint inhibitor therapy that indicates whether immune cells can sufficiently recognize cancer cells as non-self. However, about 30% of all cancers from The Cancer Genome Atlas are classified as immune-desert tumors lacking T cell infiltration despite high TMB. Since the underlying mechanism of these immune-desert tumors has yet to be unraveled, there is a pressing need to transform such immune-desert tumors into immune-inflamed tumors and thereby enhance their responsiveness to anti-PD1 therapy. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL33896 4 Samples
+FTP download: GEO (CSV, MTX, TIFF, TSV, TXT, ZIP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285341/
+Series		Accession: GSE285341	ID: 200285341
+
+6. Spatial control of m6A deposition on enhancer and promoter RNAs through co-acetylation of METTL3 and H3K27 on chromatin [CUT&Tag]
+(Submitter supplied) Interaction between the m6A methyltransferase METTL3 and METTL14 is critical for METTL3 to deposit m6A on various types of RNAs. It is still intriguing whether there is spatial control of m6A deposition on different types of RNAs. Here, through genome-wide CRISPR/Cas9 screening, we find H3K27ac acetylase p300-mediated METTL3 acetylation suppresses the binding of METTL3 on H3K27ac-marked chromatin by inhibiting its interaction with METTL14. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL34633 8 Samples
+FTP download: GEO (BW, NARROWPEAK) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285332/
+Series		Accession: GSE285332	ID: 200285332
+
+7. Spatial control of m6A deposition on enhancer and promoter RNAs through co-acetylation of METTL3 and H3K27 on chromatin [RNA-seq]
+(Submitter supplied) Interaction between the m6A methyltransferase METTL3 and METTL14 is critical for METTL3 to deposit m6A on various types of RNAs. It is still intriguing whether there is spatial control of m6A deposition on different types of RNAs. Here, through genome-wide CRISPR/Cas9 screening, we find H3K27ac acetylase p300-mediated METTL3 acetylation suppresses the binding of METTL3 on H3K27ac-marked chromatin by inhibiting its interaction with METTL14. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL30209 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285328/
+Series		Accession: GSE285328	ID: 200285328
+
+8. Spatial control of m6A deposition on enhancer and promoter RNAs through co-acetylation of METTL3 and H3K27 on chromatin [caRNA-seq]
+(Submitter supplied) Interaction between the m6A methyltransferase METTL3 and METTL14 is critical for METTL3 to deposit m6A on various types of RNAs. It is still intriguing whether there is spatial control of m6A deposition on different types of RNAs. Here, through genome-wide CRISPR/Cas9 screening, we find H3K27ac acetylase p300-mediated METTL3 acetylation suppresses the binding of METTL3 on H3K27ac-marked chromatin by inhibiting its interaction with METTL14. more...
+Organism:	Homo sapiens
+Type:		Other; Non-coding RNA profiling by high throughput sequencing
+Platform: GPL30209 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285327/
+Series		Accession: GSE285327	ID: 200285327
+
+9. Spatial control of m6A deposition on enhancer and promoter RNAs through co-acetylation of METTL3 and H3K27 on chromatin
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other; Non-coding RNA profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing; Methylation profiling by high throughput sequencing
+Platforms: GPL24676 GPL30209 GPL34633 26 Samples
+FTP download: GEO (BW, CSV, NARROWPEAK) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272469/
+Series		Accession: GSE272469	ID: 200272469
+
+10. Spatial control of m6A deposition on enhancer and promoter RNAs through co-acetylation of METTL3 and H3K27 on chromatin [GLORI]
+(Submitter supplied) Interaction between the m6A methyltransferase METTL3 and METTL14 is critical for METTL3 to deposit m6A on various types of RNAs. It is still intriguing whether there is spatial control of m6A deposition on different types of RNAs. Here, through genome-wide CRISPR/Cas9 screening based on a bimolecular fluorescence complementation (BIFC) reporter, we find the H3K27ac acetylase p300 and PAK2 inhibit the interaction between METTL3 and METTL14. more...
+Organism:	Homo sapiens
+Type:		Other; Methylation profiling by high throughput sequencing
+Platform: GPL34633 4 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272467/
+Series		Accession: GSE272467	ID: 200272467
+
+11. Spatial control of m6A deposition on enhancer and promoter RNAs through co-acetylation of METTL3 and H3K27 on chromatin [CRISPR_screen]
+(Submitter supplied) Interaction between the m6A methyltransferase METTL3 and METTL14 is critical for METTL3 to deposit m6A on various types of RNAs. It is still intriguing whether there is spatial control of m6A deposition on different types of RNAs. Here, through genome-wide CRISPR/Cas9 screening based on a bimolecular fluorescence complementation (BIFC) reporter, we find the H3K27ac acetylase p300 and PAK2 inhibit the interaction between METTL3 and METTL14. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 2 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272466/
+Series		Accession: GSE272466	ID: 200272466
+
+12. SFRP2+ CAFs Hinder Abscopal Effect from Combined Radiotherapy and Immunotherapy by Forming a Hostile Perivascular Niche [B16]
+(Submitter supplied) Despite accumulating cases of radiotherapy-induced abscopal effect in the lung cancer with the introduction of immune checkpoint inhibitors (ICIs), the occurrence of this effect remains infrequent and unpredictable to be a therapeutic goal. Here, we showed that the combination of radiotherapy (8Gy*3F) and ICI alleviated the tumor burden at the irradiated site whereas no discernible benefit was observed in the abscopal tumors. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24247 6 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE283nnn/GSE283462/
+Series		Accession: GSE283462	ID: 200283462
+
+13. SFRP2+ CAFs Hinder Abscopal Effect from Combined Radiotherapy and Immunotherapy by Forming a Hostile Perivascular Niche (scRNA-Seq)
+(Submitter supplied) Despite accumulating cases of radiotherapy-induced abscopal effect in the lung cancer with the introduction of immune checkpoint inhibitors (ICIs), the occurrence of this effect remains infrequent and unpredictable to be a therapeutic goal. Here, we showed that the combination of radiotherapy (8Gy*3F) and ICI alleviated the tumor burden at the irradiated site whereas no discernible benefit was observed in the abscopal tumors. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21273 3 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE268nnn/GSE268525/
+Series		Accession: GSE268525	ID: 200268525
+
+14. SFRP2+ CAFs Hinder Abscopal Effect from Combined Radiotherapy and Immunotherapy by Forming a Hostile Perivascular Niche [II]
+(Submitter supplied) Despite accumulating cases of radiotherapy-induced abscopal effect in the lung cancer with the introduction of immune checkpoint inhibitors (ICIs), the occurrence of this effect remains infrequent and unpredictable to be a therapeutic goal. Here, we showed that the combination of radiotherapy (8Gy*3F) and ICI alleviated the tumor burden at the irradiated site whereas no discernible benefit was observed in the abscopal tumors. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24247 15 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE263nnn/GSE263386/
+Series		Accession: GSE263386	ID: 200263386
+
+15. In situ detection of PD1–PD-L1 interactions as a functional predictor for response to immune checkpoint inhibition in NSCLC.
+(Submitter supplied) Introduction: Immune checkpoint inhibitors (ICIs) have transformed lung cancer treatment, yet their effectiveness seem restricted to certain patient subsets. Current clinical stratification on the basis of programmed death ligand 1 (PD-L1) expression offers limited predictive value. Given the mechanism of action, directly detecting spatial programmed cell death protein 1 (PD1)–PD-L1 interactions might yield more precise insights into immune responses and treatment outcomes. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 27 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE283nnn/GSE283829/
+Series		Accession: GSE283829	ID: 200283829
+
+16. Non-small Cell Lung Cancer Brain Metastasis Atlas [slide-seq]
+(Submitter supplied) We performed single nuclei RNA-sequencing (snRNA-seq) with matched T cell receptor sequencing (TCR-seq), pool matched low pass whole genome sequencing (WGS) and single-cell spatial transcriptomics  of  12 treatment-naïve non-small cell lung cancer (NSCLC) primary tumors  (PTs) and 31  treatment-naïve NSCLC brain metastases (BMs) . In total, we recovered 277,206  cell transcriptomes in 43 samples. We performed matched spatial sequencing using SlideSeq2 on 14 snRNA-seq samples.
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL20301 14 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE223nnn/GSE223501/
+Series		Accession: GSE223501	ID: 200223501
+
+17. Tumor and immune environment changes in EGFR-TKI treated EGFR-mutant non-small cell lung cancer
+(Submitter supplied) Patients with EGFR mutations exhibit immunosuppressive microenvironments, limiting responsiveness to immunotherapy. In our analysis, 25 Korean patients diagnosed with NSCLC harboring common EGFR mutations (L858R and exon 19 microdeletion) that received EGFR-TKI treatment was compared before and after treatment. 25 patients were analyzed overall, and 14 patients were analyzed in the paired analysis who received first-line osimertinib. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL18573 173 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285298/
+Series		Accession: GSE285298	ID: 200285298
+
+18. Structural and molecular properties of inclusion bodies of mumps virus
+(Submitter supplied) Viral RNA synthesis of mononegaviruses occurs in the cytoplasmic membrane-less organelles called as inclusion body (IB). Here, we reported that the IBs of mumps virus (MuV), which is the causative agent of mumps and belongs to the family Paramyxoviridae, had properties of liquid organelles formed by liquid-liquid phase separation. Super-resolution microscopic analysis of the MuV IBs demonstrated that nucleocapsid and phospho-(P) proteins formed the cage-like structure and that viral polymerase was in a reticular pattern and partially co-localized with viral mRNA. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 3 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE268nnn/GSE268004/
+Series		Accession: GSE268004	ID: 200268004
+
+19. snPATHO-seq: unlocking the FFPE archives for single nucleus RNA profiling [snRNA-seq]
+(Submitter supplied) FFPE tissue samples have long been considered challenging for sc-/sn-RNA sequencing assays. In this study, we developed a novel snRNA-seq workflow, snPATHO-seq, for FFPE tissue samples utilising isolated high-quality nuclei from FFPE samples and 10X Genomics FLEX chemistry. The snPATHO-seq demonstrated consistent performance with the established 10X Genomics 3' assay. In addition, it allows more accurate single-nucleus and spatial transcriptomics integration with the FFPE Visium dataset generated from the same FFPE block. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL24676 GPL21697 37 Samples
+FTP download: GEO (H5) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE268nnn/GSE268426/
+Series		Accession: GSE268426	ID: 200268426
+
+20. Protein expression from paired biopsies from a patient with METex14 skiping non-small cell lung cancer before and after treatment with neoadjuvant tepotinib (42 days)
+(Submitter supplied) Background: MET inhibitors have demonstrated efficacy in treating patients with non-small cell lung cancer (NSCLC) harboring METex14 skipping alterations. Advancements in spatial profiling technologies have unveiled the complex dynamics of the tumor microenvironment, a crucial factor in cancer progression and therapeutic response. Using spatial profiling, this study investigates the effects of the MET inhibitor tepotinib on the TME in a case of locally advanced NSCLC with a METex14 skipping alteration. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL34024 94 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE250nnn/GSE250509/
+Series		Accession: GSE250509	ID: 200250509
+
+21. Gene expression from paired biopsies from a patient with METex14 skiping non-small cell lung cancer before and after treatment with neoadjuvant tepotinib (42 days)
+(Submitter supplied) Background: MET inhibitors have demonstrated efficacy in treating patients with non-small cell lung cancer (NSCLC) harboring METex14 skipping alterations. Advancements in spatial profiling technologies have unveiled the complex dynamics of the tumor microenvironment, a crucial factor in cancer progression and therapeutic response. Using spatial profiling, this study investigates the effects of the MET inhibitor tepotinib on the TME in a case of locally advanced NSCLC with a METex14 skipping alteration. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL33991 94 Samples
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE249nnn/GSE249568/
+Series		Accession: GSE249568	ID: 200249568
+
+22. Immunogenomics and spatial proteomic mapping highlight distinct neuro-immune architectures in melanoma vs. non-melanoma-derived brain metastasis
+(Submitter supplied) Brain metastases (BrMs) are a devastating complication of solid tumors with challenging clinical management. In this study, immunogenomic and digital spatial analyses were applied to interrogate the peripheral blood and tumor specimens derived from 53 unique patients with metastatic brain tumors originating from different solid tumors including melanoma, breast cancer, lung cancer and renal cell carcinoma. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 54 Samples
+FTP download: GEO (XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE245nnn/GSE245467/
+Series		Accession: GSE245467	ID: 200245467
+
+23. Senescent fibroblasts in the tumor stroma rewire lung cancer metabolism and plasticity
+(Submitter supplied) Our study identified a druggable component of the tumor stroma that fulfills the metabolic requirement of tumor cells to acquire a more aggressive phenotype.
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL17021 4 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE268nnn/GSE268478/
+Series		Accession: GSE268478	ID: 200268478
+
+24. Enhancing Immunotherapy Outcomes: Spatial Multi-Omics Predictive Models for Non-Small Cell Lung Cancer
+(Submitter supplied) Non–small cell lung cancer (NSCLC) has an increasing number of targeted and systemic therapies allowing subsets of patients to achieve long–term durable benefit. Fundamental to understanding responses to a given therapy is comprehensive molecular characterization of the underlying tumor immune microenvironment (TIME). The TIME may inform models to predict immunotherapy outcomes and features to delineate therapeutic responses and clinical endpoints. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 586 Samples
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE271nnn/GSE271689/
+Series		Accession: GSE271689	ID: 200271689
+
+25. Spatially resolved whole-transcriptomic and proteomic profiling of lung cancer and immune-microenvironment according to PD-L1 expression
+(Submitter supplied) The expression of PD-L1 on tumor cells (TCs) is used as an immunotherapy biomarker in lung cancer, but heterogeneous intratumoral expression is often observed. Using a Digital Spatial Profiler, we performed proteomic and whole-transcriptomic analyses of TCs and immune cells (ICs) in spatially matched areas according to tumor PD-L1 expression and the status of the immune microenvironment. Several findings were validated using immunohistochemistry, The Cancer Genome Atlas, and immunotherapy cohorts. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21697 95 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE265nnn/GSE265899/
+Series		Accession: GSE265899	ID: 200265899
+
+26. Transcriptomic heterogeneity of EGFR-mutant non-small cell lung cancer evolution towards small cell lung cancer
+(Submitter supplied) Histological transformation from epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) to small cell lung cancer (SCLC) is the major resistance mechanism of EGFR tyrosine kinase inhibitors (TKIs). In our analysis of 59 regions of interest from EGFR-mutant NSCLC or combined SCLC/NSCLC tumors, we compared the transcriptomic profiles before and after transformation.
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL18573 59 Samples
+FTP download: GEO (PKC, XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE259nnn/GSE259387/
+Series		Accession: GSE259387	ID: 200259387
+
+27. The effect of exposure to neighborhood violence on GR signaling in lung tumors [Spatial Transcriptomics]
+(Submitter supplied) Despite lower rates and intensity of smoking, Black men experience a higher incidence of lung cancer compared to White men. The racial disparity in lung cancer is particularly pronounced in Chicago, a highly segregated urban city. Neighborhood conditions, particularly social stress, may play a role in lung tumorigenesis. Preliminary studies indicate that Black men residing in neighborhoods with higher rates of violent crime have significantly higher levels of hair cortisol, an indicator of stress response. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL24676 15 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE268nnn/GSE268049/
+Series		Accession: GSE268049	ID: 200268049
+
+28. The effect of exposure to neighborhood violence on GR signaling in lung tumors [CUT&Run]
+(Submitter supplied) Despite lower rates and intensity of smoking, Black men experience a higher incidence of lung cancer compared to White men. The racial disparity in lung cancer is particularly pronounced in Chicago, a highly segregated urban city. Neighborhood conditions, particularly social stress, may play a role in lung tumorigenesis. Preliminary studies indicate that Black men residing in neighborhoods with higher rates of violent crime have significantly higher levels of hair cortisol, an indicator of stress response. more...
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL24676 55 Samples
+FTP download: GEO (BED, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE268nnn/GSE268048/
+Series		Accession: GSE268048	ID: 200268048
+
+29. Contribution of crosstalk of mesothelial and tumoral epithelial cells in pleural metastasis of lung cancer
+(Submitter supplied) Tumor metastasis commonly affects pleura in advanced lung cancer and is related to poor prognosis, but without systematic investigation on different cell types and their crosstalk at single cell resolution. Here, by integrating 180785 single cells from lung cancer and control samples, the most distinctive transcriptome profiles between tumor and control were revealed in mesothelial cells, which is the predominate cell type of pleura. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE242nnn/GSE242951/
+Series		Accession: GSE242951	ID: 200242951
+
+30. Systematic investigation of mitochondrial transfer between cancer cells and T cells at single-cell resolution
+(Submitter supplied) Mitochondrion (MT) as the energy-producing organelle participates in most metabolic activities of mammalian cells. Unidirectional mitochondrial transfer from T cells to cancer cells was recently observed “metabolically empowering” cancer cells while “depleting immune cells”, providing new insights into Tumor-T cell interaction and immune evasion. Here, we leveraged the increasingly adopted single-cell RNA-seq technology and introduced MERCI, a statistical deconvolution method for tracing and quantifying the process of mitochondrial trafficking between cancer and T cells. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL24247 9 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE235nnn/GSE235675/
+Series		Accession: GSE235675	ID: 200235675
+
+31. Aberrant activation of wound healing programs within the metastatic niche facilitates lung colonization by osteosarcoma cells
+(Submitter supplied) Purpose: Lung metastasis is responsible for nearly all deaths caused by osteosarcoma, the most common pediatric bone tumor. How malignant bone cells coerce the lung microenvironment to support metastatic growth is unclear. This study delineates how osteosarcoma cells educate the lung microenvironment during metastatic progression.   Experimental design: Using single-cell transcriptomics (scRNA-seq), we characterized genome- and tissue-wide molecular changes induced within lung tissues by disseminated osteosarcoma cells in both immunocompetent murine models of metastasis and patient samples. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 7 Samples
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE270nnn/GSE270231/
+Series		Accession: GSE270231	ID: 200270231
+
+32. Olfactory neuroblastoma mimics molecular subtypes and lineage trajectories of small cell lung cancer
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens; Mus musculus
+Type:		Expression profiling by high throughput sequencing; Expression profiling by array
+Platforms: GPL24676 GPL30991 GPL24247 103 Samples
+FTP download: GEO (DCC, H5, TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE244nnn/GSE244123/
+Series		Accession: GSE244123	ID: 200244123
+
+33. Olfactory neuroblastoma mimics molecular subtypes and lineage trajectories of small cell lung cancer [Spatial transcriptomics on de-identified human ONB samples]
+(Submitter supplied) The olfactory epithelium relies on active neuron regeneration from basal stem cells and is susceptible to olfactory neuroblastoma (ONB), a rare, aggressive tumor of unclear origins. Here, we establish a new, highly-penetrant, genetically-engineered mouse model of ONB with alterations in Rb1/Trp53/Myc that exhibit a NEUROD1+ immature neuronal state. ASCL1 loss leads to emergence of non-neuronal histopathologies, including a POU2F3+ microvillar-like state. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL30991 96 Samples
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE244nnn/GSE244117/
+Series		Accession: GSE244117	ID: 200244117
+
+34. Aberrant activation of wound healing programs within the metastatic niche facilitates lung colonization by osteosarcoma cells
+(Submitter supplied) Purpose: Lung metastasis is responsible for nearly all deaths caused by osteosarcoma, the most common pediatric bone tumor. How malignant bone cells coerce the lung microenvironment to support metastatic growth is unclear. This study delineates how osteosarcoma cells educate the lung microenvironment during metastatic progression.   Experimental design: Using single-cell transcriptomics (scRNA-seq), we characterized genome- and tissue-wide molecular changes induced within lung tissues by disseminated osteosarcoma cells in both immunocompetent murine models of metastasis and patient samples. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL30172 GPL24247 10 Samples
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE252nnn/GSE252703/
+Series		Accession: GSE252703	ID: 200252703
+
+35. Spatially preserved multi-region transcriptomic subtyping and biomarkers of outcome with chemoimmunotherapy in extensive-stage small cell lung cancer [IMfirst_DSP cohort]
+(Submitter supplied) Transcriptomic subtyping holds promise for personalized therapy in extensive stage small cell lung cancer (ES-SCLC). In this study, we aimed to assess intratumoral transcriptomic subtype diversity and to identify biomarkers associated with long-term chemoimmunotherapy benefit in human ES-SCLC. Our work highlights that high intratumoral heterogeneity, lack of consistent association with outcome, and unclear subtype-specific target expression are major challenges for SCLC subtype-based precision oncology. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL30173 175 Samples
+FTP download: GEO (DCC, PKC, PNG, XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE261nnn/GSE261348/
+Series		Accession: GSE261348	ID: 200261348
+
+36. Spatially preserved multi-region transcriptomic subtyping and biomarkers of outcome with chemoimmunotherapy in extensive-stage small cell lung cancer [CANTABRICO_DSP cohort]
+(Submitter supplied) Transcriptomic subtyping holds promise for personalized therapy in extensive stage small cell lung cancer (ES-SCLC). In this study, we aimed to assess intratumoral transcriptomic subtype diversity and to identify biomarkers associated with long-term chemoimmunotherapy benefit in human ES-SCLC. Our work highlights that high intratumoral heterogeneity, lack of consistent association with outcome, and unclear subtype-specific target expression are major challenges for SCLC subtype-based precision oncology. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL30173 121 Samples
+FTP download: GEO (DCC, PKC, PNG, XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE261nnn/GSE261345/
+Series		Accession: GSE261345	ID: 200261345
+
+37. SFRP2+ CAFs Hinder Abscopal Effect from Combined Radiotherapy and Immunotherapy by Forming a Hostile Perivascular Niche
+(Submitter supplied) Despite accumulating cases of radiotherapy-induced abscopal effect in the lung cancer with the introduction of immune checkpoint inhibitors (ICIs), the occurrence of this effect remains infrequent and unpredictable to be a therapeutic goal. Here, we showed that the combination of radiotherapy (8Gy*3F) and ICI alleviated the tumor burden at the irradiated site whereas no discernible benefit was observed in the abscopal tumors. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24247 8 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE261nnn/GSE261799/
+Series		Accession: GSE261799	ID: 200261799
+
+38. Anti-tumor activity of a novelLAIR1antagonist in combination with anti-PD-1to treat collagen-rich solid tumors
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens; Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL20301 GPL24676 GPL24247 61 Samples
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE260nnn/GSE260599/
+Series		Accession: GSE260599	ID: 200260599
+
+39. Anti-tumor activity of a novelLAIR1antagonist in combination with anti-PD-1to treat collagen-rich solid tumors (GeoMx)
+(Submitter supplied) We recently reported that resistance to PD-1-blockade in a refractory lung cancer-derived model involved increased collagen deposition and the collagen-binding inhibitory receptor leukocyte-associated immunoglobulin-like receptor 1 (LAIR1), and thus we hypothesized that LAIR1 and collagen cooperated to suppress therapeutic response. Here, we report LAIR1 is associated with tumor stroma and is highly expressed by intratumoral myeloid cells in both human tumors and mouse models of cancer. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 48 Samples
+FTP download: GEO (DCC, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE260nnn/GSE260598/
+Series		Accession: GSE260598	ID: 200260598
+
+40. Single-cell analyis of tobacco-associated lung adenocarcinoma development
+(Submitter supplied) Understanding cellular processes underlying early lung adenocarcinoma (LUAD) development is needed to devise intervention strategies. Here, we performed single-cell RNA sequencing (scRNA-seq) of mouse lungs from Gprc5a-/- mice during lung tumor development. We coupled scRNA-seq analysis with spatial transcriptomics of tumor-bearing lungs.
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24247 27 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222901/
+Series		Accession: GSE222901	ID: 200222901
+
+41. Systematic dissection of tumor-normal single-cell ecosystems across a thousand tumors of 30 cancer types
+(Submitter supplied) The complexity of the tumor microenvironment poses significant challenges in cancer therapy. Here, to comprehensively investigate the tumor-normal ecosystems, we perform an integrative analysis of 4.9 million single-cell transcriptomes from 1,070 tumor and 493 normal samples in combination with pan-cancer 137 spatial transcriptomics, 8,887 TCGA, and 1,261 checkpoint inhibitor-treated bulk tumors. We define a myriad of cell states constituting the tumor-normal ecosystems and also identify hallmark gene signatures across different cell types and organs. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 355 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE218nnn/GSE218989/
+Series		Accession: GSE218989	ID: 200218989
+
+42. Interrogation of endothelial and mural cells in brain metastasis by multiomic analysis reveals key immune-regulatory mechanisms
+(Submitter supplied) Brain metastasis (BrM) represents the most common and aggressive brain malignancy, predominantly arising from non-small cell lung cancer, breast cancer, and melanoma. Recent studies have revealed the importance of the brain tumor microenvironment (TME), notably diverse immune cells, which play important roles in regulating cancer progression in both primary and metastatic brain malignancies. The blood-brain barrier (BBB) is another critical TME component formed by endothelial cells, mural cells, astrocytic end-feet, and closely-associated microglial cells. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24247 28 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE228nnn/GSE228355/
+Series		Accession: GSE228355	ID: 200228355
+
+43. Multi-omic and spatial dissection of immunotherapy response groups in non-small cell lung cancer (NSCLC)
+(Submitter supplied) DSP RNA profiling was performed on a cohort of immunotherapy treated NSCLC patients
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL18573 93 Samples
+FTP download: GEO (CSV, DCC, XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221733/
+Series		Accession: GSE221733	ID: 200221733
+
+44. Multi-omic and spatial dissection of immunotherapy response groups in NSCLC
+(Submitter supplied) Nanostring protein DSP was performed on 42 TMA cores of immunotherapy treated NSCLC patients
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL29263 96 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221322/
+Series		Accession: GSE221322	ID: 200221322
+
+45. Spatial coupling of microbes and immune cells in solid malignancies [Cold_hot_tumors_mouse]
+(Submitter supplied) Solid tumors are composed of cancer cells and host immune cells that are distributed in a non-uniform pattern. Growing evidence shows that intratumoral microbes are associated with immune microenvironments in cancer. However, mechanisms that direct the recruitment of microbes to tumors remain poorly understood. Here, we show that intratumoral infiltration of  immune cells and microbes are heterogeneous, and the distribution of microbes within tumors are orchestrated by the spatial heterogeneity of intratumoral lymphoid populations. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE189nnn/GSE189925/
+Series		Accession: GSE189925	ID: 200189925
+
+46. Spatial coupling of microbes and immune cells in solid malignancies [LCM_cold_hot_tumor_nest]
+(Submitter supplied) Solid tumors are composed of cancer cells and host immune cells that are distributed in a non-uniform pattern. Although this spatial heterogeneity may reflect mutational variations in cancer cells, mechanisms that direct the recruitment of immune cells to distinct regions within a tumor remain poorly understood. Here, we show that microbial-host interactions define tumor nests enriched in immune cells, and the distribution of microbes within tumors parallels the spatial heterogeneity of intratumoral lymphoid and myeloid cell populations. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 20 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155724/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA655412
+Series		Accession: GSE155724	ID: 200155724
+
+47. Spatial coupling of microbes and immune cells in solid malignancies [LCM_stroma_epithelium]
+(Submitter supplied) Solid tumors are composed of cancer cells and host immune cells that are distributed in a non-uniform pattern. Although this spatial heterogeneity may reflect mutational variations in cancer cells, mechanisms that direct the recruitment of immune cells to distinct regions within a tumor remain poorly understood. Here, we show that microbial-host interactions define tumor nests enriched in immune cells, and the distribution of microbes within tumors parallels the spatial heterogeneity of intratumoral lymphoid and myeloid cell populations. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 16 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155723/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA655411
+Series		Accession: GSE155723	ID: 200155723
+
+48. Spatial coupling of microbes and immune cells in solid malignancies [Whole_slides]
+(Submitter supplied) Solid tumors are composed of cancer cells and host immune cells that are distributed in a non-uniform pattern. Although this spatial heterogeneity may reflect mutational variations in cancer cells, mechanisms that direct the recruitment of immune cells to distinct regions within a tumor remain poorly understood. Here, we show that microbial-host interactions define tumor nests enriched in immune cells, and the distribution of microbes within tumors parallels the spatial heterogeneity of intratumoral lymphoid and myeloid cell populations. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 9 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155722/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA655410
+Series		Accession: GSE155722	ID: 200155722
+
+49. PD-1 blockade potentiates neoadjuvant chemotherapy in NSCLC via increasing CD127+ and KLRG1+ CD8 T cells
+(Submitter supplied) The combination of PD-1 blockade with neoadjuvant chemotherapy (NAC) has achieved unprecedented clinical success in non-small-cell lung cancer (NSCLC) compared to NAC alone, but the underlying mechanisms by which PD-1 blockade augments the effects of chemotherapy remain incompletely elucidated. Single-cell RNA sequencing was performed on CD45+ immune cells isolated from surgically resected fresh tumor tissues of seven NSCLC patients receiving NAC or neoadjuvant pembrolizumab and chemotherapy (NAPC). more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20795 7 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE229nnn/GSE229353/
+Series		Accession: GSE229353	ID: 200229353
+
+50. HDAC2-SP1 orchestrated M2-like macrophage phenotype drives lung cancer growth – novel intervention strategy
+(Submitter supplied) Tumor-associated macrophages (TAMs), including anti-tumor M1-like TAMs and pro-tumor M2-like TAMs, are transcriptionally dynamic innate immune cells with diverse roles in lung cancer development. Epigenetic regulators are key controllers of macrophage fate in the spatially heterogeneous tumor microenvironment. Here, we demonstrate that the spatial proximity of histone deacetylase 2 (HDAC2) – overexpressing M2-like macrophages to tumor cells significantly correlates with poor overall survival of lung cancer patients. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL30172 6 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE227nnn/GSE227560/
+Series		Accession: GSE227560	ID: 200227560
+
+51. Gene expression profile at single cell level of lymphocytes cells for Pan-T cell analysis
+(Submitter supplied) Tumour infiltrating T lymphocytes (TILs) have provided an attractive avenue for cancer treatment. Yet, the various states of TILs in tumour immune microenvironment (TIME) have not been fully characterized. Here, we present a single-cell atlas of T cells, encompassing 308,048 transcriptomes, spanning 16 different cancer types and 9 types of healthy/cancer-adjacent tissues. This allowed elucidation of 32 transcriptionally distinct T cell subsets, including cell states not reliably observable in individual datasets and those overlooked by previous studies. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 51 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222859/
+Series		Accession: GSE222859	ID: 200222859
+
+52. Multi-modal single-cell and whole-genome sequencing of minute, frozen specimens to propel clinical applications [scRNA and snRNA]
+(Submitter supplied) We provide 5' and/or 3' single cell and single nuclei RNA sequencing data for matched comparisons of profiling from fresh (single cells) and frozen (single nuclei) samples of a non small cell lung cancer sample, a cutaneous melanoma sample , and a primary uveal melanoma sample. We also provide matched samples processed with published dissociation protocols (*TST and *CST) for two samples as comparison. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL20301 71 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE216nnn/GSE216069/
+Series		Accession: GSE216069	ID: 200216069
+
+53. Multi-modal single-cell and whole-genome sequencing of minute, frozen specimens to propel clinical applications [slideseq]
+(Submitter supplied) We provide 5' and/or 3' single cell and single nuclei RNA sequencing data for matched comparisons of profiling from fresh (single cells) and frozen (single nuclei) samples of a non small cell lung cancer sample, a cutaneous melanoma sample , and a primary uveal melanoma sample. We also provide matched samples processed with published dissociation protocols (*TST and *CST) for two samples as comparison. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 3 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE216nnn/GSE216055/
+Series		Accession: GSE216055	ID: 200216055
+
+54. Gramd2+ alveolar type I cells can give rise to Kras-induced lung adenocarcinoma
+(Submitter supplied) Lung adenocarcinoma (LUAD) is the most common subtype of lung cancer and arises in the distal lung. LUAD encompasses several pathologic subtypes, including solid, lepidic, papillary, micropapillary, acinar and mixed subtypes, each with differing clinical outcomes or biological behavior. Specifically, lepidic histology is associated with improved survival relative to other LUAD histologies. Yet, the molecular and cellular underpinnings of these subtypes are largely unknown. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL19057 8 Samples
+FTP download: GEO (CSV, H5) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE215nnn/GSE215858/
+Series		Accession: GSE215858	ID: 200215858
+
+55. A cellular hierarchy in melanoma uncouples growth and metastasis
+(Submitter supplied) Although melanoma is notorious for its high degree of heterogeneity and plasticity, the origin and magnitude of cell state diversity remains poorly understood. Equally, it is not known whether melanoma growth and metastatic dissemination are supported by overlapping or distinct melanoma subpopulations. By combining mouse genetics, unbiased lineage tracing and quantitative modelling, single-cell and spatial transcriptomics, we provide evidence of a hierarchical model of tumour growth that mirrors the cellular and molecular logic underlying embryonic neural crest cell fate specification and differentiation. more...
+Organism:	Homo sapiens; Mus musculus; Mus
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL24676 GPL28457 GPL31136 25 Samples
+FTP download: GEO (CSV, H5, MTX, TIFF, TSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE207nnn/GSE207592/
+Series		Accession: GSE207592	ID: 200207592
+
+56. Cell type inference in human lung tissue by domain adaptation of single-cell and spatial transcriptomic data
+(Submitter supplied) We developed a method, CellDART, which estimates the spatial distribution of cells defined by single-cell level data using domain adaptation of neural networks, and applied to the spatial mapping of human lung tissue. The neural network that predicts the cell proportion in a pseudospot, a virtual mixture of cells from single-cell data, is translated to decompose the cell types in each spatial barcoded region. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL24676 2 Samples
+FTP download: GEO (CSV, H5, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE172nnn/GSE172416/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA723278
+Series		Accession: GSE172416	ID: 200172416
+
+57. Spatial gene expression-based, non-small cell lung carcinoma patients with paired brain metastases
+(Submitter supplied) Spatial RNA-seq were successfully constructed through expression profiling of a total of 18,694 genes in non-small cell lung cancer (NSCLC) cases with paired brain metastases.
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL21697 120 Samples
+FTP download: GEO (DCC, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE200nnn/GSE200563/
+Series		Accession: GSE200563	ID: 200200563
+
+58. Spatial transcriptomics based characterization of spatial architecture in human multiple primary lung cancer
+(Submitter supplied) Multiple primary lung cancers (MPLC) pose diagnostic and therapeutic challenges in the clinic. Here, we orchestrated the cellular atlas and spatial architecture of MPLC based on spatial transcriptomics.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 12 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE200nnn/GSE200916/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA827183
+Series		Accession: GSE200916	ID: 200200916
+
+59. SETDB1 Fuels the Lung Cancer Phenotype by Modulating Epigenome, 3D Genome Organization, and Chromatin Mechanical Properties
+(Submitter supplied) Imbalance in the finely orchestrated system of chromatin-modifying enzymes is a hallmark of many pathologies such as cancers, since causing the affection of the epigenome and transcriptional reprogramming. Here, we demonstrate that a loss-of function mutation of the major histone lysine methyltransferases SETDB1 possessing oncogenic activity in lung cancer cells leads to broad changes in the overall architecture and mechanical properties of the nucleus through redistribution of heterochromatin genome-wide, which perturbs chromatin spatial compartmentalization. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+Platforms: GPL18573 GPL21290 40 Samples
+FTP download: GEO (BED, BW, MCOOL, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE168nnn/GSE168233/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA706646
+Series		Accession: GSE168233	ID: 200168233
+
+60. Perturb-map coupled with spatial transcriptomics identifies mutation associated gene signatures in a mouse model of lung adenocarcinoma
+(Submitter supplied) The cellular architecture of a tumor has a major impact on cancer outcome, and thus there is interest in identifying genes controlling the tumor microenvironment (TME). While CRISPR screens are helping uncover genes regulating many cell-intrinsic processes, existing approaches are suboptimal for identifying gene functions operating extracellularly or within a tissue context. To address this, we developed an approach for spatial functional genomics called Perturb-map, which utilizes protein barcodes (Pro-Code) to enable spatial detection of barcoded cells within tissue. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL24247 4 Samples
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE193nnn/GSE193460/
+Series		Accession: GSE193460	ID: 200193460
+
+61. Simple oligonucleotide-based multiplexing of single-cell chromatin accessibility
+(Submitter supplied) we reported the development of an accurate, easy-to-use and scalable system (SNuBar) for multiplexing single cell ATAC or multi-omics (ATAC&RNA) assays, and applied this method to multiplex therapy combinations in a lung cancer mouse model and macro-spatial regions of normal breast tissues and samples. 
+Organism:	Homo sapiens; Mus musculus
+Type:		Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing
+6 related Platforms 15 Samples
+FTP download: GEO (BED, CSV, MTX, TBI, TSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162798/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA683040
+Series		Accession: GSE162798	ID: 200162798
+
+62. GeoMx Cancer Transcriptome Atlas (CTA) mRNA assay on 191 ROIs from a NSCLC tumor. [NSCLC_191_grid]
+(Submitter supplied) Dense spatial gene expression profiling of a NSCLC tumor. This study was part of Danaher & Kim et al., "Advances in mixed cell deconvolution enable quantification of cell types in spatially resolved gene expression data"
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL21697 376 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE174nnn/GSE174749/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA731460
+Series		Accession: GSE174749	ID: 200174749
+
+63. GeoMx Cancer Transcriptome Atlas (CTA) mRNA assay on 191 ROIs from a NSCLC tumor.
+(Submitter supplied) Dense spatial gene expression profiling of a NSCLC tumor. This study was part of Danaher & Kim et al., "Advances in mixed cell deconvolution enable quantification of cell types in spatially resolved gene expression data"
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL21697 223 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE174nnn/GSE174743/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA731400
+Series		Accession: GSE174743	ID: 200174743
+
+64. Transcription and splicing kinetics are coordinated within both genes and higher-order chromatin domains [dataset1]
+(Submitter supplied) Here, we set out to understand if and how splicing kinetics are coordinated beyond individual intron removal and if this potential coordination could regulate alternative splicing outcomes. By measuring rates of transcription and splicing genome-wide, we found that the rate of splicing is coordinated across introns within individual genes. Furthermore, we found that elongation rates and splicing rates are coordinated within TADs, as are alternative splicing changes that result from cell type differences, differentiation programs, and alterations in splicing factor levels. more...
+Organism:	Drosophila melanogaster; Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL28205 36 Samples
+FTP download: GEO (BW) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE146nnn/GSE146161/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA609632
+Series		Accession: GSE146161	ID: 200146161
+
+65. Lineage tracing reveals the pro-tumorigenic niche role of tissue resident macrophages in early lung cancer lesions [scRNA-seq]
+(Submitter supplied) To explore the diversity of the MF compartment in human non-small cell lung carcinoma lesions (NSCLC), we first performed an unbiased single cell RNA-sequencing (scRNAseq) analysis of CD45+ tumor-associated leukocytes. We identified distinct MF populations enriched in human tumors and found related MF phenotypes in mouse lung tumors. Using lineage-tracing, we discovered these discrete MF populations differ in origin and have a distinct temporal and spatial distribution in the TME. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 2 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE160nnn/GSE160711/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA674052
+Series		Accession: GSE160711	ID: 200160711
+
+66. Lineage tracing reveals the pro-tumorigenic niche role of tissue resident macrophages in early lung cancer lesions VI
+(Submitter supplied) To explore the diversity of the MF compartment in human non-small cell lung carcinoma lesions (NSCLC), we first performed an unbiased single cell RNA-sequencing (scRNAseq) analysis of CD45+ tumor-associated leukocytes. We identified distinct MF populations enriched in human tumors and found related MF phenotypes in mouse lung tumors. Using lineage-tracing, we discovered these discrete MF populations differ in origin and have a distinct temporal and spatial distribution in the TME. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 2 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157711/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA662525
+Series		Accession: GSE157711	ID: 200157711
+
+67. Lineage tracing reveals the pro-tumorigenic niche role of tissue resident macrophages in early lung cancer lesions [MC29]
+(Submitter supplied) To explore the diversity of the MF compartment in human non-small cell lung carcinoma lesions (NSCLC), we first performed an unbiased single cell RNA-sequencing (scRNAseq) analysis of CD45+ tumor-associated leukocytes. We identified distinct MF populations enriched in human tumors and found related MF phenotypes in mouse lung tumors. Using lineage-tracing, we discovered these discrete MF populations differ in origin and have a distinct temporal and spatial distribution in the TME. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 8 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE156nnn/GSE156232/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA657076
+Series		Accession: GSE156232	ID: 200156232
+
+68. Lineage tracing reveals the pro-tumorigenic niche role of tissue resident macrophages in early lung cancer lesions [MC68]
+(Submitter supplied) To explore the diversity of the MF compartment in human non-small cell lung carcinoma lesions (NSCLC), we first performed an unbiased single cell RNA-sequencing (scRNAseq) analysis of CD45+ tumor-associated leukocytes. We identified distinct MF populations enriched in human tumors and found related MF phenotypes in mouse lung tumors. Using lineage-tracing, we discovered these discrete MF populations differ in origin and have a distinct temporal and spatial distribution in the TME. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 8 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE156nnn/GSE156231/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA657074
+Series		Accession: GSE156231	ID: 200156231
+
+69. Lineage tracing reveals the pro-tumorigenic niche role of tissue resident macrophages in early lung cancer lesions I
+(Submitter supplied) To explore the diversity of the MF compartment in human non-small cell lung carcinoma lesions (NSCLC), we first performed an unbiased single cell RNA-sequencing (scRNAseq) analysis of CD45+ tumor-associated leukocytes. We identified distinct MF populations enriched in human tumors and found related MF phenotypes in mouse lung tumors. Using lineage-tracing, we discovered these discrete MF populations differ in origin and have a distinct temporal and spatial distribution in the TME. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 9 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147665/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA615903
+Series		Accession: GSE147665	ID: 200147665
+
+70. Lineage tracing reveals the pro-tumorigenic niche role of tissue resident macrophages in early lung cancer lesions II
+(Submitter supplied) To explore the diversity of the MF compartment in human non-small cell lung carcinoma lesions (NSCLC), we first performed an unbiased single cell RNA-sequencing (scRNAseq) analysis of CD45+ tumor-associated leukocytes. We identified distinct MF populations enriched in human tumors and found related MF phenotypes in mouse lung tumors. Using lineage-tracing, we discovered these discrete MF populations differ in origin and have a distinct temporal and spatial distribution in the TME. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL19057 8 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147580/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA615640
+Series		Accession: GSE147580	ID: 200147580
+
+71. Lineage tracing reveals the pro-tumorigenic niche role of tissue resident macrophages in early lung cancer lesions III
+(Submitter supplied) To explore the diversity of the MF compartment in human non-small cell lung carcinoma lesions (NSCLC), we first performed an unbiased single cell RNA-sequencing (scRNAseq) analysis of CD45+ tumor-associated leukocytes. We identified distinct MF populations enriched in human tumors and found related MF phenotypes in mouse lung tumors. Using lineage-tracing, we discovered these discrete MF populations differ in origin and have a distinct temporal and spatial distribution in the TME. more...
+Organism:	Mus musculus
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL19057 11 Samples
+FTP download: GEO (BED) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147196/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA613318
+Series		Accession: GSE147196	ID: 200147196
+
+72. A Single-Cell Tumor Immune Atlas for Precision Oncology
+(Submitter supplied) The tumor immune microenvironment is a main contributor to cancer progression and a promising therapeutic target for oncology. However, immune microenvironments vary profoundly between patients and biomarkers for prognosis and treatment response lack precision. A comprehensive compendium of tumor immune cells is required to pinpoint predictive cellular states and their spatial localization. We generated a single-cell resolved tumor immune cell atlas, jointly analyzing >500,000 cells from 217 patients and 13 cancer types, providing the basis for a patient stratification based on immune cell compositions. more...
+Organism:	Homo sapiens; Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL24247 GPL24676 10 Samples
+FTP download: GEO (CSV, MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158803/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA666613
+Series		Accession: GSE158803	ID: 200158803
+
+73. Global DNA methylation reflects spatial heterogeneity and molecular evolution of lung adenocarcinomas
+(Submitter supplied) Lung adenocarcinoma (ADC) is the most prevalent subtype of lung cancer and characterized by considerable morphological and mutational heterogeneity. However, little is known about the epigenomic intratumor variability between spatially separated histological growth patterns of ADC. In order to reconstruct the clonal evolution of histomorphological growth patterns, we performed global DNA methylation profiling of 27 primary tumor regions, seven matched normal tissues, and six lymph node metastases from seven ADC cases. more...
+Organism:	Homo sapiens
+Type:		Methylation profiling by genome tiling array
+Platform: GPL21145 40 Samples
+FTP download: GEO (IDAT, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE114nnn/GSE114989/
+Series		Accession: GSE114989	ID: 200114989
+
+74. Genome-wide co-localization of RNA-DNA interactions and fusion RNA pairs (RNAseq)
+(Submitter supplied) Despite the ever-increasing speed of detecting fusion transcripts in cancer, it remains formidable to predict what unreported RNA pairs can form new fusion transcripts. By systematic mapping of chromatin-associated RNAs (caRNAs) and their respective genomic interaction loci, we obtained genome-wide RNA-DNA interaction maps from two non-cancerous cell types. The gene pairs involved in RNA-DNA interactions in these normal cells exhibited strong overlap with those with cancer-derived fusion transcripts. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20301 70 Samples
+FTP download: GEO (FPKM_TRACKING, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE122nnn/GSE122688/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA506022
+Series		Accession: GSE122688	ID: 200122688
+
+75. Genome-wide co-localization of RNA-DNA interactions and fusion RNA pairs (iMARGI)
+(Submitter supplied) Despite the ever-increasing speed of detecting fusion transcripts in cancer, it remains formidable to predict what unreported RNA pairs can form new fusion transcripts. By systematic mapping of chromatin-associated RNAs (caRNAs) and their respective genomic interaction loci, we obtained genome-wide RNA-DNA interaction maps from two non-cancerous cell types. The gene pairs involved in RNA-DNA interactions in these normal cells exhibited strong overlap with those with cancer-derived fusion transcripts. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL20301 2 Samples
+FTP download: GEO (BEDPE) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE122nnn/GSE122689/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA506020
+Series		Accession: GSE122689	ID: 200122689
+
+76. Transcript analysis of multi-locus sampled tumor tissue in patients with non-small cell lung cancer
+(Submitter supplied) we investigated the spatial features of surgically-removed biopsies from multiple loci in tumor masses of 15 patients with non-small cell lung cancer (NSCLC). We observed that the immune microenvironment is highly spatial heterogeneous such that intra-tumoral regional variation is as large as inter-personal variation. While the local mutational burden was associated with local T cell clonal expansion, observed local anti-tumor cytotoxicity is strongly associated with local tumoral circumstance rather than TMB alone
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL20795 45 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE112nnn/GSE112996/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA449697
+Series		Accession: GSE112996	ID: 200112996
+
+77. Transcriptional profiling of lung tumour cell lines with distinct p53 mutations in the absence or presence of WT p53
+(Submitter supplied) Microarray expression data generated to determine the impact of defined p53 mutations on lung cancer cell phenotypes, and on the tumour supressive responses induced by WT p53 restoration. In murine models of lung cancer, the therapeutic benefit of WT p53 restoration has been demonstrated in p53-deficient tumours (Juntilla et al, 2010; Feldser et al, 2010). However, it remains unknown if the restoration of WT p53 function is beneficial in p53 mutant tumours. more...
+Organism:	Mus musculus
+Type:		Expression profiling by array
+Platform: GPL17543 72 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE94nnn/GSE94758/
+Series		Accession: GSE94758	ID: 200094758
+
+78. Microbial community structure and functions are resilient to metal pollution along two forest soil gradients
+(Submitter supplied) Despite the global importance of forests, it is virtually unknown how their soil microbial communities adapt at the phylogenetic and functional level to long term metal pollution. Studying twelve sites located along two distinct gradients of metal pollution in Southern Poland revealed that both community composition (via MiSeq Illumina sequencing of 16S rRNA genes) and functional gene potential (using GeoChip 4.2) were highly similar across the gradients despite drastically diverging metal contamination levels. more...
+Organism:	Bacteria; uncultured bacterium
+Type:		Genome variation profiling by array
+Platform: GPL18982 12 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE59nnn/GSE59620/
+Series		Accession: GSE59620	ID: 200059620
+
+79. Agilent-013282 array CGH on NCI-60 cancer cell lines
+(Submitter supplied) The NCI-60 cancer cell lines have been used for studying cancer pathogenesis and for drug discovery. This dataset adds to the growing number of datasets on various genomic platforms that have been made public on Cellminer (http://discover.nci.nih.gov/cellminer/)
+Organism:	Homo sapiens
+Type:		Genome variation profiling by array
+Platform: GPL11068 129 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48568/
+Series		Accession: GSE48568	ID: 200048568
+
+80. Characterizing the molecular spatial and temporal field of injury in early stage smoker non-small cell lung cancer patients after definitive surgery by expression profiling
+(Submitter supplied) Gene expression alterations in response to cigarette smoke have been characterized in normal-appearing bronchial epithelium of healthy smokers and it has been suggested that adjacent histologically normal tissue display tumor-associated molecular abnormalities. We sought to delineate the spatial and temporal molecular lung field of injury in smoker early stage non-small cell lung cancer (NSCLC) patients (n=19) who were accrued into a surveillance clinical trial for annual follow-up and bronchoscopies within one year after definitive surgery.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL6244 391 Samples
+FTP download: GEO (CEL) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE40nnn/GSE40407/
+Series		Accession: GSE40407	ID: 200040407
+
+81. [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+(Submitter supplied) Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html  June 03, 2009: annotation table updated with netaffx build 28 June 07, 2012: annotation table updated with netaffx build 32 June 23, 2016: annotation table updated with netaffx build 35 Protocol: see manufacturer's web site  All probe sets represented on the GeneChip Mouse Expression Set 430 are included on the GeneChip Mouse Genome 430 2.0 Array. more...
+Organism:	Mus musculus
+601 DataSets 4560 Series 40 Related Platforms 59068 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL1nnn/GPL1261/
+Platform	Accession: GPL1261	ID: 100001261
+
+82. [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+(Submitter supplied) Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html  June 03, 2009: annotation table updated with netaffx build 28 June 06, 2012: annotation table updated with netaffx build 32 June 23, 2016: annotation table updated with netaffx build 35 Protocol: see manufacturer's web site  Complete coverage of the Human Genome U133 Set plus 6,500 additional genes for analysis of over 47,000 transcripts All probe sets represented on the GeneChip Human Genome U133 Set are identically replicated on the GeneChip Human Genome U133 Plus 2.0 Array. more...
+Organism:	Homo sapiens
+602 DataSets 5699 Series 61 Related Platforms 176153 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL570/
+Platform	Accession: GPL570	ID: 100000570
+
+83. [MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array
+(Submitter supplied) Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html  June 03, 2009: annotation table updated with netaffx build 28 June 07, 2012: annotation table updated with netaffx build 32 June 24, 2016: annotation table updated with netaffx build 35 Protocol: see manufacturer's web site  The MG-U74 set includes 3 arrays with a total of 36899 entries and was indexed 29-Jan-2002. more...
+Organism:	Mus musculus
+264 DataSets 537 Series 1 Related Platform 6909 Samples
+FTP download: GEO ftp://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL81/
+Platform	Accession: GPL81	ID: 100000081
+
+84. Lung_16_tumor
+Organism:	Homo sapiens
+Source name:	Lung tumor
+Platform: GPL24676 Series: GSE268049 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8284nnn/GSM8284992/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24637321
+Sample		Accession: GSM8284992	ID: 308284992
+
+85. Lung_15_tumor
+Organism:	Homo sapiens
+Source name:	Lung tumor
+Platform: GPL24676 Series: GSE268049 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8284nnn/GSM8284991/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24637320
+Sample		Accession: GSM8284991	ID: 308284991
+
+86. Lung_14_tumor
+Organism:	Homo sapiens
+Source name:	Lung tumor
+Platform: GPL24676 Series: GSE268049 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8284nnn/GSM8284990/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24637319
+Sample		Accession: GSM8284990	ID: 308284990
+
+87. Lung_13_tumor
+Organism:	Homo sapiens
+Source name:	Lung tumor
+Platform: GPL24676 Series: GSE268049 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8284nnn/GSM8284989/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24637318
+Sample		Accession: GSM8284989	ID: 308284989
+
+88. Lung_12_tumor
+Organism:	Homo sapiens
+Source name:	Lung tumor
+Platform: GPL24676 Series: GSE268049 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8284nnn/GSM8284988/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24637317
+Sample		Accession: GSM8284988	ID: 308284988
+
+89. Lung_11_tumor
+Organism:	Homo sapiens
+Source name:	Lung tumor
+Platform: GPL24676 Series: GSE268049 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8284nnn/GSM8284987/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24637316
+Sample		Accession: GSM8284987	ID: 308284987
+
+90. Lung_10_tumor
+Organism:	Homo sapiens
+Source name:	Lung tumor
+Platform: GPL24676 Series: GSE268049 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8284nnn/GSM8284986/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24637315
+Sample		Accession: GSM8284986	ID: 308284986
+
+91. Lung_9_tumor
+Organism:	Homo sapiens
+Source name:	Lung tumor
+Platform: GPL24676 Series: GSE268049 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8284nnn/GSM8284985/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24637314
+Sample		Accession: GSM8284985	ID: 308284985
+
+92. Lung_8_tumor
+Organism:	Homo sapiens
+Source name:	Lung tumor
+Platform: GPL24676 Series: GSE268049 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8284nnn/GSM8284984/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24637313
+Sample		Accession: GSM8284984	ID: 308284984
+
+93. Lung_7_tumor
+Organism:	Homo sapiens
+Source name:	Lung tumor
+Platform: GPL24676 Series: GSE268049 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8284nnn/GSM8284983/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24637312
+Sample		Accession: GSM8284983	ID: 308284983
+
+94. Lung_6_tumor
+Organism:	Homo sapiens
+Source name:	Lung tumor
+Platform: GPL24676 Series: GSE268049 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8284nnn/GSM8284982/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24637311
+Sample		Accession: GSM8284982	ID: 308284982
+
+95. Lung_4_tumor
+Organism:	Homo sapiens
+Source name:	Lung tumor
+Platform: GPL24676 Series: GSE268049 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8284nnn/GSM8284981/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24637310
+Sample		Accession: GSM8284981	ID: 308284981
+
+96. Lung_3_tumor
+Organism:	Homo sapiens
+Source name:	Lung tumor
+Platform: GPL24676 Series: GSE268049 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8284nnn/GSM8284980/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24637309
+Sample		Accession: GSM8284980	ID: 308284980
+
+97. Lung_2_tumor
+Organism:	Homo sapiens
+Source name:	Lung tumor
+Platform: GPL24676 Series: GSE268049 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8284nnn/GSM8284979/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24637308
+Sample		Accession: GSM8284979	ID: 308284979
+
+98. Lung_1_tumor
+Organism:	Homo sapiens
+Source name:	Lung tumor
+Platform: GPL24676 Series: GSE268049 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8284nnn/GSM8284978/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24637307
+Sample		Accession: GSM8284978	ID: 308284978
+
+99. 43881 Lung cancer tumor nest CD68- ROI 6
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120488/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797601
+Sample		Accession: GSM8120488	ID: 308120488
+
+100. 43881 Lung cancer tumor nest CD68+ ROI 6
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120487/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797600
+Sample		Accession: GSM8120487	ID: 308120487
+
+101. 43881 Lung cancer tumor nest CD68- ROI 5
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120486/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797599
+Sample		Accession: GSM8120486	ID: 308120486
+
+102. 43881 Lung cancer tumor nest CD68+ ROI 5
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120485/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797598
+Sample		Accession: GSM8120485	ID: 308120485
+
+103. 43881 Lung cancer tumor nest CD68- ROI 4
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120484/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797597
+Sample		Accession: GSM8120484	ID: 308120484
+
+104. 43881 Lung cancer tumor nest CD68+ ROI 4
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120483/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797596
+Sample		Accession: GSM8120483	ID: 308120483
+
+105. 43881 Lung cancer stroma CD68- ROI 3
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120482/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797595
+Sample		Accession: GSM8120482	ID: 308120482
+
+106. 43881 Lung cancer stroma CD68+ ROI 3
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120481/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797594
+Sample		Accession: GSM8120481	ID: 308120481
+
+107. 43881 Lung cancer stroma CD68- ROI 2
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120480/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797593
+Sample		Accession: GSM8120480	ID: 308120480
+
+108. 43881 Lung cancer stroma CD68+ ROI 2
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120479/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797592
+Sample		Accession: GSM8120479	ID: 308120479
+
+109. 43881 Lung cancer stroma CD68- ROI 1
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120478/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797591
+Sample		Accession: GSM8120478	ID: 308120478
+
+110. 43881 Lung cancer stroma CD68+ ROI 1
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120477/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797590
+Sample		Accession: GSM8120477	ID: 308120477
+
+111. 43728 Lung cancer tumor nest CD68- ROI 6
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120476/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797589
+Sample		Accession: GSM8120476	ID: 308120476
+
+112. 43728 Lung cancer tumor nest CD68+ ROI 6
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120475/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797588
+Sample		Accession: GSM8120475	ID: 308120475
+
+113. 43728 Lung cancer tumor nest CD68- ROI 5
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120474/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797587
+Sample		Accession: GSM8120474	ID: 308120474
+
+114. 43728 Lung cancer tumor nest CD68+ ROI 5
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120473/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797586
+Sample		Accession: GSM8120473	ID: 308120473
+
+115. 43728 Lung cancer tumor nest CD68- ROI 4
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120472/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797585
+Sample		Accession: GSM8120472	ID: 308120472
+
+116. 43728 Lung cancer tumor nest CD68+ ROI 4
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120471/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797584
+Sample		Accession: GSM8120471	ID: 308120471
+
+117. 43728 Lung cancer stroma CD68- ROI 3
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120470/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797583
+Sample		Accession: GSM8120470	ID: 308120470
+
+118. 43728 Lung cancer stroma CD68+ ROI 3
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120469/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797582
+Sample		Accession: GSM8120469	ID: 308120469
+
+119. 43728 Lung cancer stroma CD68- ROI 2
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120468/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797581
+Sample		Accession: GSM8120468	ID: 308120468
+
+120. 43728 Lung cancer stroma CD68+ ROI 2
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120467/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797580
+Sample		Accession: GSM8120467	ID: 308120467
+
+121. 43728 Lung cancer stroma CD68- ROI 1
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120466/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797579
+Sample		Accession: GSM8120466	ID: 308120466
+
+122. 43728 Lung cancer stroma CD68+ ROI 1
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL20301 Series: GSE260598 GSE260599 
+FTP download: GEO (DCC) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8120nnn/GSM8120465/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23797578
+Sample		Accession: GSM8120465	ID: 308120465
