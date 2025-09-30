@@ -243,7 +243,15 @@ if st.session_state.df_combined is not None:
 if st.session_state.df_combined is not None:
     st.header("3. Filter GSEs for Deeper Analysis")
     with st.container(border=True):
-        st.subheader("Build Your GSE Selection List")
+        
+        # --- NEW: Platform Filter ---
+        st.subheader("Step 1: Filter by Platform (Optional)")
+        # Get unique platforms from the dataframe
+        platforms_series = st.session_state.df_combined['Platforms'].dropna().str.split(', ')
+        all_platforms = sorted(list(set([p for sublist in platforms_series for p in sublist])))
+        selected_platforms = st.multiselect("Select platforms to focus on. Leave empty to include all.", options=all_platforms)
+        
+        st.subheader("Step 2: Build Your GSE Selection List")
         col1, col2 = st.columns(2)
         with col1:
             st.write("**Method 1: Add by Similarity Score**")
@@ -265,26 +273,32 @@ if st.session_state.df_combined is not None:
                     st.session_state.gse_selection_list.append(manual_gse.strip().upper())
                     st.rerun()
         
-        # --- MODIFIED: Display count and add a Reset button ---
         unique_selection_count = len(set(st.session_state.gse_selection_list))
         st.write(f"**Current Selection:** {unique_selection_count} GSEs selected.")
-        if st.button("Reset Selection List"):
+        if st.button("Reset Selection List", key="reset_selection"):
             st.session_state.gse_selection_list = []
             st.rerun()
 
-        # --- Actions on the selection list ---
+        # --- MODIFIED: Filter button logic ---
+        st.subheader("Step 3: Apply Filters")
         if st.button("Filter GSE Selected", type="primary"):
+            df_to_filter = st.session_state.df_combined
+
+            # 1. Apply platform filter first
+            if selected_platforms:
+                # Regex to find any of the selected platforms in the comma-separated string
+                platform_regex = '|'.join(selected_platforms)
+                df_to_filter = df_to_filter[df_to_filter['Platforms'].str.contains(platform_regex, na=False)].copy()
+            
+            # 2. Then, apply the intersection with the manual/similarity list
             if st.session_state.gse_selection_list:
-                unique_gses = sorted(list(set(st.session_state.gse_selection_list)))
-                
-                # --- MODIFIED: Reverted filter logic to KEEP selected GSEs ---
-                st.session_state.gse_df_filtered = st.session_state.df_combined[
-                    st.session_state.df_combined['Series'].isin(unique_gses)
-                ].copy()
-                
-                st.success(f"Filtered DataFrame created with {len(unique_gses)} unique GSEs.")
-            else:
-                st.warning("Selection list is empty. Add GSEs before filtering.")
+                unique_gses_to_keep = sorted(list(set(st.session_state.gse_selection_list)))
+                # Filter the (already platform-filtered) dataframe
+                df_to_filter = df_to_filter[df_to_filter['Series'].isin(unique_gses_to_keep)].copy()
+            
+            st.session_state.gse_df_filtered = df_to_filter
+            final_gse_count = len(st.session_state.gse_df_filtered['Series'].unique())
+            st.success(f"Filtered DataFrame created with {final_gse_count} unique GSEs.")
 
 # --- Filtered Visualization and Export Section ---
 if st.session_state.gse_df_filtered is not None:
@@ -292,9 +306,12 @@ if st.session_state.gse_df_filtered is not None:
     
     if st.button("Make Plots from Filtered GSEs"):
         with st.spinner("Generating filtered plots..."):
-            filtered_summary = dataset_snapshot(st.session_state.gse_df_filtered)
-            file_per_smp_complexity(filtered_summary)
-            file_ext_network(st.session_state.gse_df_filtered)
+            if not st.session_state.gse_df_filtered.empty:
+                filtered_summary = dataset_snapshot(st.session_state.gse_df_filtered)
+                file_per_smp_complexity(filtered_summary)
+                file_ext_network(st.session_state.gse_df_filtered)
+            else:
+                st.warning("The filtered DataFrame is empty. No plots to generate.")
 
     if st.button("Extract the data"):
         if dir_base:
@@ -306,6 +323,7 @@ if st.session_state.gse_df_filtered is not None:
 
 # --- Metadata Analysis Section ---
 st.title("Metadata Analysis")
+# ... (The rest of the metadata analysis section remains the same)
 if st.button("Get GSE Metadata"):
     df_to_process = None
     if st.session_state.gse_df_filtered is not None:
@@ -323,7 +341,6 @@ if st.button("Get GSE Metadata"):
         st.warning("Please run the main pipeline first by providing a directory path.")
 
 if st.session_state.list_of_metadata_dfs:
-    # (The rest of the metadata analysis UI remains the same)
     with st.container(border=True):
         st.header("Explore Raw Metadata")
         gse_options = [df['gse_id'].iloc[0] for df in st.session_state.list_of_metadata_dfs]
