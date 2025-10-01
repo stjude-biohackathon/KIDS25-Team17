@@ -13,21 +13,7 @@ from itertools import combinations
 import GEOparse
 import logging
 import plotly.express as px
-
-# --- Helper function from your script to sanitize Excel sheet names ---
-def sanitize_sheet_name(name: str, used: set) -> str:
-    name = str(name) if pd.notna(name) and str(name).strip() else "NA"
-    bad = r'[:\\/?*\[\]]'
-    safe = re.sub(bad, "_", name)
-    safe = safe[:31] or "NA"
-    base = safe
-    i = 1
-    while safe in used:
-        suffix = f"_{i}"
-        safe = (base[:31-len(suffix)] + suffix) if len(base) + len(suffix) > 31 else base + suffix
-        i += 1
-    used.add(safe)
-    return safe
+import plotly.graph_objects as go # <-- NEW IMPORT
 
 # --- Part 1: Pipeline Functions (Unchanged) ---
 @st.cache_data
@@ -97,7 +83,7 @@ def run_geo_pipeline(dir_base):
     status_text.success("Web scraping complete!")
     return pd.DataFrame(all_data)
 
-# --- Part 2: Visualization Functions (Unchanged) ---
+# --- Part 2: Visualization Functions ---
 def dataset_snapshot(df):
     st.subheader("Dataset Snapshot")
     df = df.copy()
@@ -149,6 +135,8 @@ def file_per_smp_complexity(summary):
     plt.legend(title='Platform_Group', bbox_to_anchor=(1.02, 1), loc='upper left')
     plt.tight_layout()
     st.pyplot(fig)
+
+# --- REWRITTEN aS INTERACTIVE PLOTLY PLOT ---
 def file_ext_network(df):
     st.subheader("File Extension Similarity Network")
     series_files, edges, G = calculate_similarity_edges(df)
@@ -158,42 +146,110 @@ def file_ext_network(df):
         return
 
     pos = nx.spring_layout(G, seed=42, k=2.5)
+
+    # --- Create Traces for Plotly ---
+    edge_traces = []
+    all_weights = [d['weight'] for _, _, d in G.edges(data=True)]
     
-    # --- MODIFIED PLOTTING LOGIC ---
-    fig, ax = plt.subplots(figsize=(16, 12))
-
-    # Draw the nodes
-    nx.draw_networkx_nodes(G, pos, node_size=900, node_color='lightblue', ax=ax)
-
-    # Draw edges and create color bar ONLY if there are edges
-    edges_to_draw = G.edges(data=True)
-    weights = [d['weight'] for _, _, d in edges_to_draw]
-
-    if weights:
-        # Normalize weights for the colormap
-        norm = plt.Normalize(vmin=min(weights), vmax=max(weights))
-        cmap = plt.cm.viridis
+    # Create a list of Scatter traces, one for each edge, to apply color
+    for edge in G.edges(data=True):
+        x0, y0 = pos[edge[0]]
+        x1, y1 = pos[edge[1]]
+        weight = edge[2]['weight']
         
-        # Draw the edges with colors based on weight
-        nx.draw_networkx_edges(G, pos, width=2.5, edgelist=edges_to_draw, edge_color=weights, edge_cmap=cmap, ax=ax, alpha=0.8)
-        
-        # Create a ScalarMappable object that can be used to generate the color bar
-        sm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
-        sm.set_array([]) # An empty array is fine
-        
-        # Add the color bar legend to the plot
-        plt.colorbar(sm, ax=ax, label='Similarity Intensity', shrink=0.7)
+        color = px.colors.sample_colorscale('viridis', weight)[0]
 
-    # Draw the labels on top of everything
-    texts = [ax.text(pos[node][0], pos[node][1], node, fontsize=14, fontweight='bold', ha='center', va='center') for node in G.nodes]
-    adjust_text(texts, ax=ax, expand_points=(2, 2), arrowprops=dict(arrowstyle='-', color='gray', lw=0.5))
+        edge_traces.append(go.Scatter(
+            x=[x0, x1], y=[y0, y1],
+            mode='lines',
+            line=dict(width=2.5, color=color),
+            hoverinfo='text',
+            hovertext=f'Similarity: {weight:.3f}'
+        ))
+            
+    # Create Nodes Trace
+    node_x, node_y, node_text, node_hover_text = [], [], [], []
+    node_info_df = df.drop_duplicates(subset='Series').set_index('Series')
     
-    ax.set_title(f"Series Network by Supplementary File Similarity (last 30% of filename)")
-    plt.axis('off')
-    plt.tight_layout()
-    st.pyplot(fig)
+    for node in G.nodes():
+        x, y = pos[node]
+        node_x.append(x)
+        node_y.append(y)
+        node_text.append(node)
+        
+        if node in node_info_df.index:
+            info = node_info_df.loc[node]
+            hover_text = (
+                f"<b>{node}</b><br>"
+                f"Title: {info.get('Title', 'N/A')[:50]}...<br>"
+                f"Platforms: {info.get('Platforms', 'N/A')}<br>"
+                f"Samples: {info.get('Samples', 'N/A')}"
+            )
+            node_hover_text.append(hover_text)
+        else:
+            node_hover_text.append(f"<b>{node}</b>")
 
-# --- Helper function to calculate similarity ---
+    node_trace = go.Scatter(
+        x=node_x, y=node_y,
+        mode='markers+text',
+        hoverinfo='text',
+        text=node_text,
+        textposition="top center",
+        hovertext=node_hover_text,
+        marker=dict(
+            showscale=True,
+            colorscale='viridis', # <-- CHANGED FROM 'YlGnBu' TO 'viridis'
+            size=15,
+            colorbar=dict(
+                thickness=15,
+                title='Node Connections (Degree)',
+                xanchor='left',
+                x=0, 
+            ),
+            line_width=2))
+    
+    node_adjacencies = [len(adj[1]) for adj in G.adjacency()]
+    node_trace.marker.color = node_adjacencies
+
+    # Create a DUMMY trace for the edge color bar
+    if all_weights:
+        colorbar_trace = go.Scatter(
+            x=[None], y=[None],
+            mode='markers',
+            marker=dict(
+                colorscale='viridis',
+                cmin=0,
+                cmax=1,
+                showscale=True,
+                colorbar=dict(
+                    thickness=15,
+                    title='Edge Similarity Score'
+                )
+            ),
+            hoverinfo='none'
+        )
+        data = edge_traces + [node_trace, colorbar_trace]
+    else:
+        data = edge_traces + [node_trace]
+
+    # Create the Figure
+    fig = go.Figure(data=data,
+                 layout=go.Layout(
+                    title=dict(
+                        text='<br>Series Network by Supplementary File Similarity',
+                        font=dict(size=16)
+                    ),
+                    showlegend=False,
+                    hovermode='closest',
+                    margin=dict(b=20,l=5,r=5,t=40),
+                    xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+                    yaxis=dict(showgrid=False, zeroline=False, showticklabels=False))
+                    )
+    
+    fig.update_layout(height=800)
+    st.plotly_chart(fig, use_container_width=True)
+
+# --- Helper function to calculate similarity (Unchanged) ---
 def calculate_similarity_edges(df):
     def last_pct_str(s, pct=0.3):
         if pd.isnull(s): return ''
@@ -285,6 +341,7 @@ if st.session_state.df_combined is not None:
 # --- Filtering Section ---
 if st.session_state.df_combined is not None:
     st.header("3. Filter GSEs for Deeper Analysis")
+    # ... (filtering UI is the same)
     with st.container(border=True):
         st.subheader("Step 1: Apply Primary Filters (Optional)")
         col1_filter, col2_filter = st.columns(2)
@@ -346,7 +403,6 @@ if st.session_state.df_combined is not None:
             final_gse_count = len(st.session_state.gse_df_filtered['Series'].unique())
             st.success(f"Filtered DataFrame created with {final_gse_count} unique GSEs.")
 
-
 # --- Filtered Visualization and Export Section ---
 if st.session_state.gse_df_filtered is not None:
     st.header("4. Analyze Filtered Data")
@@ -370,6 +426,7 @@ if st.session_state.gse_df_filtered is not None:
 
 # --- Metadata Analysis Section ---
 st.title("Metadata Analysis")
+# ... (The rest of the metadata analysis section remains the same)
 if st.button("Get GSE Metadata"):
     df_to_process = None
     if st.session_state.gse_df_filtered is not None:
@@ -449,13 +506,11 @@ if st.session_state.list_of_metadata_dfs:
                         st.dataframe(filtered_subset)
                         break
 
-            # --- NEW: Extract Filtered Metadata Button ---
             st.header("Export Filtered Metadata")
             if st.button("Extract metadata filtered to excel"):
                 if dir_base and st.session_state.list_of_metadata_dfs and st.session_state.metadata_search_results:
                     excel_out_path = os.path.join(dir_base, "metadata_filtered_by_word.xlsx")
                     
-                    # First, create the list of filtered dataframes
                     list_of_filtered_dfs = []
                     res = st.session_state.metadata_search_results
                     gses_to_include = res['gse_vector']
@@ -468,7 +523,6 @@ if st.session_state.list_of_metadata_dfs:
                             if not filtered_subset.empty:
                                 list_of_filtered_dfs.append(filtered_subset)
                     
-                    # Now, write this list to an Excel file
                     used_names = set()
                     with pd.ExcelWriter(excel_out_path, engine="xlsxwriter") as writer:
                         for filt_df in list_of_filtered_dfs:
