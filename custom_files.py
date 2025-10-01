@@ -63,5 +63,5 @@ def gse_supp_list(gse_id, timeout):
         file_details.append(file_dict)
     return file_details
 
-#print(gse_supp_list('GSE267960', 2))
+#print(gse_supp_list('GSE268048', 2))
 

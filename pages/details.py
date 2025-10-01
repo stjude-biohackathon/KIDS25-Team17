@@ -41,7 +41,7 @@ if gse_id:
     for label, colour in zip(labels, s_colours):
         col_dict[label] = colour
 
-    #supp_files = gse_supp_list(acc, 2)
+    supp_files = gse_supp_list(acc, 2)
     supp_df = pd.DataFrame(supp_files)
 
 colX, colY, colZ = st.columns([1,10,1])
@@ -52,7 +52,7 @@ with colY:
     st.write(f"#### Organism: `{details['taxon']}`")
     st.write(f"#### Published date: `{details['PDAT']}`")
     st.write(f"#### Associated publication: `PMID{pubs}`")
-    st.write(f"#### Sample no : `{details['n_samples']}`")
+    st.write(f"#### Sample no : `{details['n_samples'].numerator}`")
     st.write(f"#### Sample names : `{', '.join([x.get('Title') for x in details['Samples']])}`")
     st.write(f"#### Download folder : `{details['FTPLink']}`")
 
@@ -65,5 +65,5 @@ with colY:
         colors=col_dict,
     )
     st.write("#### Supplementary files")
-    st.DataFrame(supp_df)
+    st.dataframe(supp_df)
 
