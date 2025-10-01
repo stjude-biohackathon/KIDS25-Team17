@@ -17,6 +17,22 @@ import plotly.graph_objects as go # <-- NEW IMPORT
 
 # --- Part 1: Pipeline Functions (Unchanged) ---
 @st.cache_data
+# --- Helper function to sanitize Excel sheet names ---
+def sanitize_sheet_name(name: str, used: set) -> str:
+    # Excel sheet name rules
+    name = str(name) if pd.notna(name) and str(name).strip() else "NA"
+    bad = r'[:\\/?*\[\]]'
+    safe = re.sub(bad, "_", name)
+    safe = safe[:31] or "NA"
+    base = safe
+    i = 1
+    while safe in used:
+        suffix = f"_{i}"
+        safe = (base[:31-len(suffix)] + suffix) if len(base) + len(suffix) > 31 else base + suffix
+        i += 1
+    used.add(safe)
+    return safe
+
 def run_geo_pipeline(dir_base):
     gds_file_path = os.path.join(dir_base, "gds_result.txt")
     if not os.path.exists(gds_file_path):
@@ -104,7 +120,8 @@ def dataset_snapshot(df):
         num_samples=('Samples', 'first'),
         num_file_types=('Filetype_unzipped', 'nunique'),
         num_files=('Supplementary file', 'nunique'),
-        Platforms=('Platforms', 'first')
+        Platforms=('Platforms', 'first'),
+        Title=('Title', 'first')
     ).reset_index()
     def platform_group(p_str):
         if pd.isnull(p_str): return 'Unknown'
@@ -123,18 +140,28 @@ def dataset_snapshot(df):
         plt.tight_layout()
         st.pyplot(fig)
     return summary
-def file_per_smp_complexity(summary):
+def file_per_smp_complexity(summary_df):
     st.subheader("File vs. Sample Complexity")
-    fig, ax = plt.subplots(figsize=(14, 8))
-    sns.scatterplot(data=summary, x='num_files', y='num_samples', hue='Platform_Group', s=100, edgecolor='k', ax=ax)
-    for i, row in summary.iterrows():
-        ax.text(row['num_files'], row['num_samples'], row['Series'], fontsize=8, ha='right', va='bottom')
-    ax.set_xlabel('Number of Unique Supplementary Files')
-    ax.set_ylabel('Number of Samples')
-    ax.set_title('Unique Supplementary Files vs Samples per Series')
-    plt.legend(title='Platform_Group', bbox_to_anchor=(1.02, 1), loc='upper left')
-    plt.tight_layout()
-    st.pyplot(fig)
+    fig = px.scatter(
+        summary_df,
+        x='num_files',
+        y='num_samples',
+        color='Platform_Group',
+        size='total_size_mb', # <-- remove to make all in same size
+        hover_name='Series',
+        hover_data={
+            'Title': True,
+            'Platforms': True,
+            'num_samples': ':.0f',
+            'total_size_mb': ':.0f MB', # <-- .0f
+            'num_files': False, 
+            'Platform_Group': False,
+            'Series': False,
+        },
+        title='Unique Supplementary Files vs Samples per Series (Hover for Details)'
+    )
+    fig.update_layout(height=600)
+    st.plotly_chart(fig, use_container_width=True)
 
 # --- REWRITTEN aS INTERACTIVE PLOTLY PLOT ---
 def file_ext_network(df):
