@@ -29,14 +29,14 @@ def format_size_convert(bytes_size:int):
     return f"{size:.2f} {unit}"
 
 
-def gse_supp_list(gse_id):
+def gse_supp_list(gse_id, timeout):
     
     base_url = 'https://ftp.ncbi.nlm.nih.gov/geo/series/'
     url = f'{base_url}{gse_folder(gse_id)}/{gse_id}/suppl/filelist.txt'
-    #print(url)
+    ##print(url)
 
     try:
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout = timeout)
         response.raise_for_status()
         data = response.text
     except requests.exceptions.RequestException as e:
@@ -63,5 +63,5 @@ def gse_supp_list(gse_id):
         file_details.append(file_dict)
     return file_details
 
-print(gse_supp_list('GSE274731'))
+#print(gse_supp_list('GSE267960', 2))
 
