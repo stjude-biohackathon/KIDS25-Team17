@@ -244,61 +244,71 @@ if st.session_state.df_combined is not None:
     st.header("3. Filter GSEs for Deeper Analysis")
     with st.container(border=True):
         
-        # --- NEW: Platform Filter ---
-        st.subheader("Step 1: Filter by Platform (Optional)")
-        # Get unique platforms from the dataframe
-        platforms_series = st.session_state.df_combined['Platforms'].dropna().str.split(', ')
-        all_platforms = sorted(list(set([p for sublist in platforms_series for p in sublist])))
-        selected_platforms = st.multiselect("Select platforms to focus on. Leave empty to include all.", options=all_platforms)
-        
-        st.subheader("Step 2: Build Your GSE Selection List")
-        col1, col2 = st.columns(2)
-        with col1:
-            st.write("**Method 1: Add by Similarity Score**")
-            sim_threshold = st.number_input("Similarity Threshold:", min_value=0.0, max_value=1.0, value=0.8, step=0.05)
-            if st.button("Add GSEs by Similarity"):
+        st.subheader("Step 1: Apply Primary Filters (Optional)")
+        col1_filter, col2_filter = st.columns(2)
+        with col1_filter:
+            platforms_series = st.session_state.df_combined['Platforms'].dropna().str.split(', ')
+            all_platforms = sorted(list(set([p for sublist in platforms_series for p in sublist])))
+            selected_platforms = st.multiselect("Filter by Platform(s):", options=all_platforms, help="Leave empty to include all.")
+        with col2_filter:
+            # --- MODIFIED: Sample Count Range Filter ---
+            st.write("**Filter by Sample Count Range:**")
+            min_samples = st.number_input("Minimum samples (>=):", min_value=0, value=0, step=10, help="Set to 0 to disable.")
+            max_samples = st.number_input("Maximum samples (<=):", min_value=0, value=0, step=10, help="Set to 0 to disable.")
+
+        st.subheader("Step 2: Build Additional GSE Selection List (Optional)")
+        col1_add, col2_add = st.columns(2)
+        with col1_add:
+            st.write("**Method 1: Add by Similarity**")
+            sim_threshold = st.number_input("Similarity >=", min_value=0.0, max_value=1.0, value=0.8, step=0.05)
+            if st.button("Add by Similarity"):
                 _, edges, _ = calculate_similarity_edges(st.session_state.df_combined)
-                added_gses = set()
-                for s1, s2, sim in edges:
-                    if sim >= sim_threshold:
-                        added_gses.add(s1)
-                        added_gses.add(s2)
+                added_gses = {s for e in edges if e[2] >= sim_threshold for s in e[:2]}
                 st.session_state.gse_selection_list.extend(list(added_gses))
                 st.success(f"Added {len(added_gses)} GSEs to the selection list.")
-        with col2:
-            st.write("**Method 2: Manually Add GSE**")
-            manual_gse = st.text_input("Enter a single GSE ID:", key="manual_gse_input")
-            if st.button("Add this GSE to the list"):
+        with col2_add:
+            st.write("**Method 2: Manually Add**")
+            manual_gse = st.text_input("GSE ID:", key="manual_gse_input")
+            if st.button("Add GSE"):
                 if manual_gse:
                     st.session_state.gse_selection_list.append(manual_gse.strip().upper())
                     st.rerun()
+
+        st.divider()
         
         unique_selection_count = len(set(st.session_state.gse_selection_list))
-        st.write(f"**Current Selection:** {unique_selection_count} GSEs selected.")
-        if st.button("Reset Selection List", key="reset_selection"):
+        st.write(f"**Additive Selection List:** {unique_selection_count} unique GSEs selected.")
+        if st.button("Reset Selection List"):
             st.session_state.gse_selection_list = []
             st.rerun()
 
-        # --- MODIFIED: Filter button logic ---
-        st.subheader("Step 3: Apply Filters")
+        st.subheader("Step 3: Apply All Filters")
         if st.button("Filter GSE Selected", type="primary"):
-            df_to_filter = st.session_state.df_combined
+            df_to_filter = st.session_state.df_combined.copy()
+            unique_samples_df = df_to_filter.drop_duplicates(subset=['Series'])
 
-            # 1. Apply platform filter first
+            # 1. Apply platform filter
             if selected_platforms:
-                # Regex to find any of the selected platforms in the comma-separated string
                 platform_regex = '|'.join(selected_platforms)
-                df_to_filter = df_to_filter[df_to_filter['Platforms'].str.contains(platform_regex, na=False)].copy()
+                df_to_filter = df_to_filter[df_to_filter['Platforms'].str.contains(platform_regex, na=False)]
             
-            # 2. Then, apply the intersection with the manual/similarity list
+            # 2. Apply sample count range filter
+            gses_passing_samples = set(unique_samples_df['Series'])
+            if min_samples > 0:
+                gses_passing_samples.intersection_update(unique_samples_df.query(f'Samples >= {min_samples}')['Series'])
+            if max_samples > 0:
+                gses_passing_samples.intersection_update(unique_samples_df.query(f'Samples <= {max_samples}')['Series'])
+            df_to_filter = df_to_filter[df_to_filter['Series'].isin(gses_passing_samples)]
+            
+            # 3. Apply the intersection with the additive list (if it's not empty)
             if st.session_state.gse_selection_list:
-                unique_gses_to_keep = sorted(list(set(st.session_state.gse_selection_list)))
-                # Filter the (already platform-filtered) dataframe
-                df_to_filter = df_to_filter[df_to_filter['Series'].isin(unique_gses_to_keep)].copy()
+                unique_gses_to_keep = set(st.session_state.gse_selection_list)
+                df_to_filter = df_to_filter[df_to_filter['Series'].isin(unique_gses_to_keep)]
             
             st.session_state.gse_df_filtered = df_to_filter
             final_gse_count = len(st.session_state.gse_df_filtered['Series'].unique())
             st.success(f"Filtered DataFrame created with {final_gse_count} unique GSEs.")
+
 
 # --- Filtered Visualization and Export Section ---
 if st.session_state.gse_df_filtered is not None:
