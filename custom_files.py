@@ -2,7 +2,7 @@ import requests
 
 #get the gse folder name
 def gse_folder(gse_id):
-    _gse = gse_id[:6]+'nnn'
+    _gse = gse_id[:-3]+'nnn'
     return _gse
 
 #gse ftp links
