@@ -22,7 +22,7 @@ email = os.getenv("EMAIL")
 #spacy.prefer_gpu()
 spacy_model = "en_ner_bionlp13cg_md"
 
-st.set_page_config( page_title=f"Details of {gse_id}", page_icon=":dna:", layout="wide")
+st.set_page_config( page_title=f"Details of Id {gse_id}", page_icon=":dna:", layout="wide")
 
 if gse_id:
     details = fetch_esummary(gse_id, api_key, email)
@@ -41,7 +41,7 @@ if gse_id:
     for label, colour in zip(labels, s_colours):
         col_dict[label] = colour
 
-    supp_files = gse_supp_list(acc, 2)
+    supp_files = gse_supp_list(acc, 2) #example GSE268048
     supp_df = pd.DataFrame(supp_files)
 
 colX, colY, colZ = st.columns([1,10,1])
