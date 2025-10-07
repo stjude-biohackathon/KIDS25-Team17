@@ -11,7 +11,7 @@ def fetch_geo_datasets(search_term, api_key, email, retmax: int = 100):
     record = Entrez.read(handle)
     handle.close()
 
-    print(f"Total records found: {record["Count"]}")
+    print(f"Total records found: {record['Count']}")
 
     out_list = []
     # find details for each gse id
@@ -37,5 +37,6 @@ def fetch_esummary(gse_id, api_key, email):
     summary = Entrez.read(handle)
     handle.close()
     summary = summary[0]
+
 
     return summary
